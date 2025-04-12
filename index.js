@@ -13,7 +13,7 @@ app.post('/mensagem', (req, res) => {
   return res.json({ resposta });
 });
 
-const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => {
-  console.log(`Rodando na porta ${PORT}`);
+const PORTA = process.env.PORT || 8080;
+app.listen(PORTA, () => {
+  console.log(`Rodando na porta ${PORTA}`);
 });
